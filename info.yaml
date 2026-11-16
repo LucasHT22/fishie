@@ -23,8 +23,8 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
+  ui[0]: "FEED"
+  ui[1]: "RAIN"
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""
@@ -45,8 +45,8 @@ pinout:
   # Bidirectional pins
   uio[0]: ""
   uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
+  uio[2]: "I2C_SCL"
+  uio[3]: "I2C_SDA"
   uio[4]: ""
   uio[5]: ""
   uio[6]: ""
