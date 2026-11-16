@@ -9,11 +9,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The design receives 2 8-bit inputs and adds them to produce an output
 
 ## How to test
 
-Explain how to use your project
+Cocotb test starts a clock, initializes the inputs, releases reset, applies two values and checks the resulting sum
 
 ## External hardware
 
